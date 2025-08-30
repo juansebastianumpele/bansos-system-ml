@@ -1,0 +1,101 @@
+nik,nama,alamat,usia,jenis_kelamin,pekerjaan,penghasilan,jumlah_tanggungan,pendidikan,status_rumah,kendaraan,status_pernikahan
+7201010101010001,Ahmad Fauzi,"Jl. Merdeka No. 45, Gorontalo",35,Laki-laki,Petani,1200000,3,SMA,Milik Sendiri,Motor,Menikah
+7201010101010002,Siti Nurhaliza,"Jl. Kartini No. 12, Gorontalo",29,Perempuan,Ibu Rumah Tangga,1400000,2,SMP,Kontrakan,Tidak Ada,Menikah
+7201010101010003,Budi Santoso,"Jl. Hasanuddin No. 88, Gorontalo",42,Laki-laki,Buruh Harian,1500000,4,SD,Milik Orang Tua,Motor,Menikah
+7201010101010004,Rina Marlina,"Jl. Pahlawan No. 7, Gorontalo",33,Perempuan,Penjahit,1700000,1,SMA,Milik Sendiri,Tidak Ada,Lajang
+7201010101010005,Andi Saputra,"Jl. Tani Makmur No. 23, Gorontalo",50,Laki-laki,Petani,1300000,5,SD,Milik Sendiri,Sepeda,Menikah
+7201010101010006,Dewi Lestari,"Jl. Sudirman No. 99, Gorontalo",27,Perempuan,Karyawan Swasta,4500000,0,Sarjana,Kontrakan,Motor,Lajang
+7201010101010007,Fajar Pratama,"Jl. Diponegoro No. 15, Gorontalo",38,Laki-laki,Wiraswasta,2800000,2,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010008,Cinta Amelia,"Jl. Gatot Subroto No. 3, Gorontalo",45,Perempuan,Pegawai Negeri,6000000,1,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010009,Bayu Aditama,"Jl. Ahmad Yani No. 55, Gorontalo",25,Laki-laki,Mahasiswa,0,0,SMA,Milik Orang Tua,Motor,Lajang
+7201010101010010,Eka Putri,"Jl. Soekarno Hatta No. 11, Gorontalo",31,Perempuan,Pekerja Lepas,2100000,1,SMA,Kontrakan,Motor,Lajang
+7201010101010011,Taufik Hidayat,"Jl. Jendral Sudirman No. 100, Gorontalo",40,Laki-laki,Pedagang,2800000,3,SMP,Milik Sendiri,Motor,Menikah
+7201010101010012,Nurul Fatimah,"Jl. Kenanga No. 2, Gorontalo",36,Perempuan,Penjual Sayur,1500000,2,SD,Kontrakan,Tidak Ada,Menikah
+7201010101010013,Rizky Ananda,"Jl. Melati No. 25, Gorontalo",28,Laki-laki,Tukang Bangunan,1450000,1,SD,Milik Orang Tua,Tidak Ada,Menikah
+7201010101010014,Lisa Oktaviani,"Jl. Mawar No. 4, Gorontalo",30,Perempuan,Pekerja Pabrik,3200000,0,SMA,Kontrakan,Motor,Lajang
+7201010101010015,Dimas Alamsyah,"Jl. Cempaka No. 19, Gorontalo",55,Laki-laki,Petani,1100000,6,SD,Milik Sendiri,Sepeda,Menikah
+7201010101010016,Maya Suryani,"Jl. Anggrek No. 8, Gorontalo",26,Perempuan,Freelancer,3800000,1,Sarjana,Milik Sendiri,Motor,Lajang
+7201010101010017,Iqbal Maulana,"Jl. Kamboja No. 33, Gorontalo",39,Laki-laki,Manajer,8000000,2,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010018,Sari Wijaya,"Jl. Teratai No. 6, Gorontalo",41,Perempuan,Guru Honorer,2000000,3,Sarjana,Milik Orang Tua,Motor,Menikah
+7201010101010019,Yoga Firmansyah,"Jl. Dahlia No. 10, Gorontalo",32,Laki-laki,Karyawan BUMN,7500000,1,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010020,Fitriani Anwar,"Jl. Sakura No. 1, Gorontalo",24,Perempuan,Pegawai Bank,5000000,0,Sarjana,Kontrakan,Motor,Lajang
+7201010101010021,Hendra Setiawan,"Jl. Akasia No. 14, Gorontalo",48,Laki-laki,Wiraswasta,6500000,4,SMA,Milik Sendiri,Mobil,Menikah
+7201010101010022,Kartika Dewi,"Jl. Bunga Raya No. 22, Gorontalo",37,Perempuan,Dokter,12000000,1,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010023,Guntur Wicaksono,"Jl. Kembang No. 16, Gorontalo",30,Laki-laki,Pengusaha,15000000,0,Sarjana,Milik Sendiri,Mobil,Lajang
+7201010101010024,Wulan Permata,"Jl. Tulip No. 5, Gorontalo",29,Perempuan,Kasir,2300000,1,SMA,Kontrakan,Motor,Lajang
+7201010101010025,Joko Susanto,"Jl. Bougenville No. 20, Gorontalo",52,Laki-laki,Buruh Pabrik,2600000,4,SD,Milik Sendiri,Motor,Menikah
+7201010101010026,Ratna Sari,"Jl. Mawar Putih No. 9, Gorontalo",34,Perempuan,Penjaga Toko,1800000,2,SMP,Kontrakan,Tidak Ada,Menikah
+7201010101010027,Lukman Hakim,"Jl. Kencana No. 18, Gorontalo",47,Laki-laki,Petani,1500000,5,SD,Milik Sendiri,Sepeda,Menikah
+7201010101010028,Siska Rahayu,"Jl. Anyelir No. 12, Gorontalo",28,Perempuan,Pramuniaga,2800000,0,SMA,Kontrakan,Motor,Lajang
+7201010101010029,Heri Kusuma,"Jl. Tanjung No. 7, Gorontalo",43,Laki-laki,Nelayan,1300000,3,SD,Milik Sendiri,Tidak Ada,Menikah
+7201010101010030,Indah Permata,"Jl. Kamboja No. 1, Gorontalo",31,Perempuan,Guru SD,3500000,1,Sarjana,Kontrakan,Motor,Menikah
+7201010101010031,Zainal Abidin,"Jl. Angsana No. 2, Gorontalo",58,Laki-laki,Pensiunan,1000000,2,SMA,Milik Sendiri,Sepeda,Menikah
+7201010101010032,Citra Kirana,"Jl. Meranti No. 29, Gorontalo",25,Perempuan,Desainer Grafis,4000000,0,Sarjana,Milik Orang Tua,Motor,Lajang
+7201010101010033,Deni Prasetyo,"Jl. Perkutut No. 5, Gorontalo",36,Laki-laki,Karyawan Pabrik,2800000,3,SMA,Kontrakan,Motor,Menikah
+7201010101010034,Lia Amanda,"Jl. Jalak No. 14, Gorontalo",32,Perempuan,Penjual Kue,1500000,1,SMP,Milik Sendiri,Tidak Ada,Menikah
+7201010101010035,Rio Firmansyah,"Jl. Elang No. 20, Gorontalo",29,Laki-laki,Driver Ojol,2000000,0,SMA,Kontrakan,Motor,Lajang
+7201010101010036,Aisyah Ramadhani,"Jl. Rajawali No. 9, Gorontalo",40,Perempuan,Ibu Rumah Tangga,1200000,4,SMP,Milik Sendiri,Tidak Ada,Menikah
+7201010101010037,Fahmi Ramadhan,"Jl. Garuda No. 11, Gorontalo",33,Laki-laki,Teknisi,4500000,2,Sarjana,Milik Sendiri,Motor,Menikah
+7201010101010038,Putri Utami,"Jl. Merpati No. 13, Gorontalo",27,Perempuan,Wiraswasta,3500000,0,Sarjana,Milik Orang Tua,Motor,Lajang
+7201010101010039,Gilang Pratama,"Jl. Kasuari No. 6, Gorontalo",28,Laki-laki,Tukang Kebun,1000000,1,SD,Kontrakan,Sepeda,Menikah
+7201010101010040,Cindy Lestari,"Jl. Kakatua No. 15, Gorontalo",30,Perempuan,Guru Ngaji,800000,2,SMP,Milik Sendiri,Tidak Ada,Menikah
+7201010101010041,Aldi Wijaya,"Jl. Nuri No. 17, Gorontalo",39,Laki-laki,Pekerja Tambang,2800000,4,SMP,Milik Sendiri,Motor,Menikah
+7201010101010042,Rizka Aprilia,"Jl. Puyuh No. 21, Gorontalo",25,Perempuan,Kasir Minimarket,1900000,0,SMA,Kontrakan,Motor,Lajang
+7201010101010043,Bambang Sugeng,"Jl. Pipit No. 3, Gorontalo",50,Laki-laki,Petani,1600000,3,SD,Milik Sendiri,Sepeda,Menikah
+7201010101010044,Yeni Setyowati,"Jl. Merak No. 19, Gorontalo",45,Perempuan,Penjahit,2500000,2,SMP,Milik Orang Tua,Tidak Ada,Menikah
+7201010101010045,Surya Kencana,"Jl. Gelatik No. 24, Gorontalo",34,Laki-laki,Wiraswasta,5000000,1,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010046,Farah Zahra,"Jl. Kutilang No. 26, Gorontalo",28,Perempuan,Dokter Gigi,9000000,0,Sarjana,Milik Sendiri,Mobil,Lajang
+7201010101010047,Adi Pratama,"Jl. Turi No. 1, Gorontalo",41,Laki-laki,Dosen,8500000,2,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010048,Jessica Wijaya,"Jl. Kenari No. 30, Gorontalo",26,Perempuan,Animator,4200000,0,Sarjana,Milik Sendiri,Motor,Lajang
+7201010101010049,David Kurniawan,"Jl. Cendrawasih No. 32, Gorontalo",30,Laki-laki,Arsitek,7000000,1,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010050,Nana Indriani,"Jl. Perkutut No. 50, Gorontalo",35,Perempuan,Ibu Rumah Tangga,1400000,2,SMP,Kontrakan,Tidak Ada,Menikah
+7201010101010051,Eko Susanto,"Jl. Manggis No. 11, Gorontalo",48,Laki-laki,Pedagang Kaki Lima,1000000,3,SD,Kontrakan,Sepeda,Menikah
+7201010101010052,Dian Wulandari,"Jl. Duku No. 14, Gorontalo",31,Perempuan,Pekerja Garmen,1900000,1,SMA,Milik Orang Tua,Tidak Ada,Menikah
+7201010101010053,Ferry Ardian,"Jl. Rambutan No. 3, Gorontalo",25,Laki-laki,Karyawan Startup,4800000,0,Sarjana,Kontrakan,Motor,Lajang
+7201010101010054,Agus Setiawan,"Jl. Durian No. 9, Gorontalo",55,Laki-laki,Pensiunan,1300000,2,SMP,Milik Sendiri,Motor,Menikah
+7201010101010055,Rizky Pratama,"Jl. Salak No. 18, Gorontalo",22,Laki-laki,Pengantar Barang,1800000,0,SMA,Kontrakan,Motor,Lajang
+7201010101010056,Citra Dewi,"Jl. Jeruk No. 21, Gorontalo",39,Perempuan,Penjual Online,3000000,2,Sarjana,Milik Sendiri,Tidak Ada,Menikah
+7201010101010057,Herianto,"Jl. Kelapa No. 7, Gorontalo",45,Laki-laki,Pekerja Bangunan,1400000,4,SD,Kontrakan,Tidak Ada,Menikah
+7201010101010058,Putu Sari,"Jl. Manggis No. 10, Gorontalo",29,Perempuan,Penulis,2500000,1,Sarjana,Milik Sendiri,Motor,Lajang
+7201010101010059,Andika Yudha,"Jl. Nangka No. 25, Gorontalo",33,Laki-laki,Programmer,7500000,1,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010060,Amelia Rizky,"Jl. Jambu No. 4, Gorontalo",28,Perempuan,Dokter Hewan,5500000,0,Sarjana,Kontrakan,Mobil,Lajang
+7201010101010061,Bayu Santika,"Jl. Srikaya No. 16, Gorontalo",41,Laki-laki,Manajer Proyek,10000000,2,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010062,Ika Wahyuni,"Jl. Delima No. 19, Gorontalo",36,Perempuan,Guru Privat,2100000,2,SMA,Kontrakan,Motor,Menikah
+7201010101010063,Candra Wijaya,"Jl. Mangga No. 22, Gorontalo",50,Laki-laki,Tukang Jahit,1200000,3,SD,Milik Sendiri,Tidak Ada,Menikah
+7201010101010064,Lina Marlina,"Jl. Anggur No. 8, Gorontalo",30,Perempuan,Desainer Baju,3800000,1,Sarjana,Milik Sendiri,Motor,Lajang
+7201010101010065,Danang Susanto,"Jl. Apel No. 13, Gorontalo",47,Laki-laki,Pekerja Tani,900000,4,SD,Milik Sendiri,Sepeda,Menikah
+7201010101010066,Yulianti,"Jl. Alpukat No. 6, Gorontalo",26,Perempuan,Pegawai Restoran,2200000,0,SMP,Kontrakan,Motor,Lajang
+7201010101010067,Mochamad Rasyid,"Jl. Melon No. 24, Gorontalo",35,Laki-laki,Arsitek,8500000,1,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010068,Febriani,"Jl. Semangka No. 15, Gorontalo",28,Perempuan,Marketing,4200000,0,Sarjana,Milik Orang Tua,Mobil,Lajang
+7201010101010069,Ayu Puspitasari,"Jl. Stroberi No. 1, Gorontalo",34,Perempuan,Ibu Rumah Tangga,1300000,3,SMA,Kontrakan,Tidak Ada,Menikah
+7201010101010070,Hendro Sanjaya,"Jl. Tomat No. 17, Gorontalo",52,Laki-laki,Petani,1000000,5,SD,Milik Sendiri,Sepeda,Menikah
+7201010101010071,Dwi Setiawan,"Jl. Wortel No. 3, Gorontalo",31,Laki-laki,Pedagang Grosir,3100000,2,Sarjana,Milik Sendiri,Motor,Menikah
+7201010101010072,Nadia Rahma,"Jl. Labu No. 19, Gorontalo",29,Perempuan,Karyawan Swasta,3000000,0,Sarjana,Kontrakan,Motor,Lajang
+7201010101010073,Rudi Kurniawan,"Jl. Mentimun No. 2, Gorontalo",46,Laki-laki,Buruh Pabrik,2500000,4,SMP,Milik Sendiri,Motor,Menikah
+7201010101010074,Yani Susanti,"Jl. Kacang No. 28, Gorontalo",38,Perempuan,Penjual Jajanan,1500000,2,SD,Kontrakan,Tidak Ada,Menikah
+7201010101010075,Arif Budiman,"Jl. Jagung No. 10, Gorontalo",32,Laki-laki,Karyawan BUMN,5000000,1,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010076,Rika Puspita,"Jl. Sawi No. 12, Gorontalo",25,Perempuan,Pekerja Lepas,2800000,0,SMA,Milik Orang Tua,Motor,Lajang
+7201010101010077,Sigit Wicaksono,"Jl. Bayam No. 27, Gorontalo",44,Laki-laki,Wiraswasta,6500000,3,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010078,Dewi Yuliani,"Jl. Kangkung No. 8, Gorontalo",30,Perempuan,Guru TK,1800000,1,SMA,Kontrakan,Motor,Menikah
+7201010101010079,Bagas Wijaya,"Jl. Seledri No. 14, Gorontalo",29,Laki-laki,Tukang Listrik,2200000,0,SMP,Milik Sendiri,Motor,Lajang
+7201010101010080,Santi Ambarwati,"Jl. Kol No. 20, Gorontalo",37,Perempuan,Ibu Rumah Tangga,1100000,2,SD,Kontrakan,Tidak Ada,Menikah
+7201010101010081,Ferry Susilo,"Jl. Brokoli No. 1, Gorontalo",51,Laki-laki,Petani,1400000,4,SD,Milik Sendiri,Sepeda,Menikah
+7201010101010082,Lala Rizky,"Jl. Kembang Kol No. 22, Gorontalo",26,Perempuan,Pramuniaga,2700000,0,SMA,Milik Orang Tua,Motor,Lajang
+7201010101010083,Fajar Setiadi,"Jl. Bawang No. 25, Gorontalo",38,Laki-laki,Sopir,2000000,3,SMP,Kontrakan,Motor,Menikah
+7201010101010084,Mega Lestari,"Jl. Cabai No. 18, Gorontalo",31,Perempuan,Pekerja Garmen,1500000,2,SMA,Milik Sendiri,Tidak Ada,Menikah
+7201010101010085,Umar Bakri,"Jl. Jahe No. 16, Gorontalo",60,Laki-laki,Pensiunan,1000000,1,SD,Milik Sendiri,Tidak Ada,Menikah
+7201010101010086,Alya Putri,"Jl. Lengkuas No. 23, Gorontalo",24,Perempuan,Mahasiswi,0,0,SMA,Milik Orang Tua,Motor,Lajang
+7201010101010087,Wahyu Hidayat,"Jl. Kunyit No. 7, Gorontalo",35,Laki-laki,Guru SMP,3200000,2,Sarjana,Kontrakan,Motor,Menikah
+7201010101010088,Vina Agustina,"Jl. Kencur No. 10, Gorontalo",29,Perempuan,Staff Administrasi,2800000,0,Sarjana,Milik Sendiri,Motor,Lajang
+7201010101010089,Yusuf Hariyanto,"Jl. Lada No. 12, Gorontalo",49,Laki-laki,Pedagang,1400000,4,SD,Milik Sendiri,Sepeda,Menikah
+7201010101010090,Zaskia Aditama,"Jl. Ketumbar No. 2, Gorontalo",27,Perempuan,Pengembang Aplikasi,6500000,0,Sarjana,Milik Sendiri,Mobil,Lajang
+7201010101010091,Hafiz Maulana,"Jl. Kemiri No. 21, Gorontalo",33,Laki-laki,Analis Keuangan,9000000,1,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010092,Bella Permata,"Jl. Cengkeh No. 24, Gorontalo",30,Perempuan,Dokter Umum,11000000,1,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010093,Rangga Prasetyo,"Jl. Pala No. 17, Gorontalo",40,Laki-laki,Pengusaha,15000000,2,Sarjana,Milik Sendiri,Mobil,Menikah
+7201010101010094,Niki Wulandari,"Jl. Kayu Manis No. 8, Gorontalo",28,Perempuan,Kasir,1800000,1,SMA,Kontrakan,Motor,Lajang
+7201010101010095,Doni Wijaya,"Jl. Gandum No. 10, Gorontalo",35,Laki-laki,Wiraswasta,2900000,2,SMA,Milik Sendiri,Motor,Menikah
+7201010101010096,Sinta Puspita,"Jl. Kedelai No. 16, Gorontalo",32,Perempuan,Ibu Rumah Tangga,1200000,3,SMP,Kontrakan,Tidak Ada,Menikah
+7201010101010097,Bagas Prasetyo,"Jl. Kacang Hijau No. 23, Gorontalo",45,Laki-laki,Buruh Tani,1500000,5,SD,Milik Sendiri,Sepeda,Menikah
+7201010101010098,Lisa Amalia,"Jl. Ubi No. 19, Gorontalo",29,Perempuan,Pegawai Koperasi,2400000,0,SMA,Milik Sendiri,Motor,Lajang
+7201010101010099,Indra Susanto,"Jl. Singkong No. 1, Gorontalo",50,Laki-laki,Pensiunan,1100000,2,SMP,Milik Sendiri,Tidak Ada,Menikah
+7201010101010100,Sarah Febriani,"Jl. Talas No. 4, Gorontalo",27,Perempuan,Akuntan,4000000,0,Sarjana,Kontrakan,Mobil,Lajang
