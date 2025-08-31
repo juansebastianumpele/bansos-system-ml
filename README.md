@@ -51,10 +51,9 @@ be-neurovolt/
 
 ## 📦 Instalasi
 
-1. **Clone repository**
+1. **Masuk Direktori be-neurovolt**
    ```bash
-   git clone https://github.com/username/project-name.git
-   cd project-name
+   cd be-neurovolt
    ```
 
 2. **Install dependencies**
@@ -166,10 +165,9 @@ ml-service/
 
 ## 📦 Instalasi
 
-1. **Clone repository**
+1. **Masuk Direktori**
    ```bash
-   git clone https://github.com/username/project-name.git
-   cd project-name
+   cd ml-service
    ```
 
 2. **Buat virtual environment**
@@ -190,6 +188,11 @@ ml-service/
 4. **Install dependencies**
    ```bash
    pip install -r requirements.txt
+   ```
+   Jika bermasalah not found module 'pymysql'
+   jalankan perintah:
+    ```bash
+   pip install pymysql
    ```
 
 ---
