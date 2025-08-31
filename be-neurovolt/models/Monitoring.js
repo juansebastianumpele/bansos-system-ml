@@ -19,7 +19,7 @@ module.exports = (sequelize, DataTypes) => {
       periode: {
         type: DataTypes.DATE,
         allowNull: false,
-        unique: true, // ⭐ Tambahkan ini di model juga
+        unique: true,
       },
       total_warga: {
         type: DataTypes.INTEGER,

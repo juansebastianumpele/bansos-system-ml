@@ -22,7 +22,7 @@ const Register = async (req, res) => {
       return res.status(400).json({ msg: "Email sudah digunakan" });
     }
 
-    const salt = await bcrypt.genSalt(10); // pakai 10 round default
+    const salt = await bcrypt.genSalt(10);
     const hashPassword = await bcrypt.hash(password, salt);
 
     const userCount = await User.count();
@@ -43,7 +43,6 @@ const Register = async (req, res) => {
   }
 };
 
-// Login User
 const Login = async (req, res) => {
   try {
     const user = await User.findOne({
@@ -64,7 +63,6 @@ const Login = async (req, res) => {
     const email = user.email;
     const role = user.role;
 
-    // Membuat access token
     const accessToken = jwt.sign(
       { userId, name, email },
       process.env.ACCESS_TOKEN_SECRET,
@@ -73,7 +71,6 @@ const Login = async (req, res) => {
       }
     );
 
-    // Membuat refresh token
     const refreshToken = jwt.sign(
       { userId, name, email },
       process.env.REFRESH_TOKEN_SECRET,
@@ -82,7 +79,6 @@ const Login = async (req, res) => {
       }
     );
 
-    // Mengupdate refresh_token di database
     await User.update(
       { refresh_token: refreshToken },
       {
@@ -90,10 +86,9 @@ const Login = async (req, res) => {
       }
     );
 
-    // Mengatur cookie untuk refresh token
     res.cookie("refreshToken", refreshToken, {
       httpOnly: true,
-      maxAge: 24 * 60 * 60 * 1000, // 1 hari
+      maxAge: 24 * 60 * 60 * 1000,
     });
 
     res.json({ accessToken, role });
@@ -103,31 +98,29 @@ const Login = async (req, res) => {
   }
 };
 
-// Logout User (opsional, bisa diaktifkan kembali kalau perlu)
-// const Logout = async (req, res) => {
-//   try {
-//     const refreshToken = req.cookies.refreshToken;
-//     if (!refreshToken) return res.sendStatus(204); // No content
+const Logout = async (req, res) => {
+  try {
+    const refreshToken = req.cookies.refreshToken;
+    if (!refreshToken) return res.sendStatus(204); // No content
 
-//     const user = await User.findOne({ where: { refresh_token: refreshToken } });
-//     if (!user) return res.sendStatus(204);
+    const user = await User.findOne({ where: { refresh_token: refreshToken } });
+    if (!user) return res.sendStatus(204);
 
-//     await User.update({ refresh_token: null }, { where: { id: user.id } });
-//     res.clearCookie("refreshToken");
-//     return res.sendStatus(200); // Logout berhasil
-//   } catch (error) {
-//     console.error(error);
-//     res.status(500).json({ msg: "Terjadi kesalahan saat logout" });
-//   }
-// };
+    await User.update({ refresh_token: null }, { where: { id: user.id } });
+    res.clearCookie("refreshToken");
+    return res.sendStatus(200);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ msg: "Terjadi kesalahan saat logout" });
+  }
+};
 
 const getUser = async (req, res) => {
   try {
-    // NOTE: Model Lahan harus di-import kalau memang dipakai
     const users = await User.findAll({
       include: [
         {
-          model: Lahan, // pastikan require("../models/lahanModels.js") kalau mau dipakai
+          model: Lahan,
           as: "lahan",
           attributes: { exclude: ["createdAt", "updatedAt"] },
         },
@@ -147,6 +140,6 @@ const getUser = async (req, res) => {
 module.exports = {
   Register,
   Login,
-  // Logout,
+  Logout,
   getUser,
 };

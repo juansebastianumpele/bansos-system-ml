@@ -1,12 +1,9 @@
-// src/services/ml.service.js
-
 const axios = require("axios");
 require("dotenv").config();
 const FormData = require("form-data");
 
 const ML_BASE_URL = process.env.ML_BASE_URL;
 
-// Fungsi untuk memproses file CSV secara tunggal di Python
 async function processCSV(fileBuffer, originalFileName, train_first = true) {
   try {
     const url = `${ML_BASE_URL}/process-csv?train_first=${train_first}`;
@@ -35,7 +32,6 @@ async function processCSV(fileBuffer, originalFileName, train_first = true) {
   }
 }
 
-// Fungsi baru untuk mengambil data monitoring dari service Python
 async function getMonitoringData() {
   try {
     const url = `${ML_BASE_URL}/monitoring`;

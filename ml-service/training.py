@@ -8,13 +8,11 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 
-# Konfigurasi fitur dan target
 FEATURES_NUM = ["usia", "penghasilan", "jumlah_tanggungan"]
 FEATURES_CAT = ["pendidikan", "status_rumah", "kendaraan", "status_pernikahan", "pekerjaan", "jenis_kelamin"]
 FEATURES = FEATURES_NUM + FEATURES_CAT
 TARGET = "kelas"
 
-# Threshold dari environment variable
 THRESHOLD_MISKIN = float(os.getenv("TH_MISKIN", 1500000))
 THRESHOLD_MENENGAH = float(os.getenv("TH_MENENGAH", 4000000))
 
@@ -25,8 +23,6 @@ def auto_label(df: pd.DataFrame) -> pd.DataFrame:
     """
     df = df.copy()
 
-    # Menghitung kelas (miskin/menengah/atas) berdasarkan penghasilan per kapita.
-    # Ini adalah logika berbasis aturan untuk melatih model.
     tanggungan = (df["jumlah_tanggungan"].fillna(0)).clip(lower=0)
     perkapita = df["penghasilan"].fillna(0) / (1 + tanggungan)
     def label_kelas(pk):
@@ -38,8 +34,6 @@ def auto_label(df: pd.DataFrame) -> pd.DataFrame:
             return "atas"
     df[TARGET] = perkapita.apply(label_kelas)
 
-    # [PERUBAHAN] Menambahkan logika untuk kelayakan bansos.
-    # Kelayakan ditentukan berdasarkan kelas yang dihasilkan (ML/AI).
     df["kelayakan_bansos"] = df[TARGET].apply(lambda x: "layak" if x == "miskin" else "tidak_layak")
     
     return df

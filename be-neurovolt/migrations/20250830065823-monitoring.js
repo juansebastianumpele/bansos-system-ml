@@ -15,7 +15,7 @@ module.exports = {
       periode: {
         type: Sequelize.DATE,
         allowNull: false,
-        unique: true, // ⭐ Tambahkan ini untuk ON DUPLICATE KEY UPDATE
+        unique: true,
       },
       total_warga: {
         type: Sequelize.INTEGER,
@@ -29,7 +29,6 @@ module.exports = {
         type: Sequelize.FLOAT,
         allowNull: false,
       },
-      // ⭐ Kolom baru untuk timestamps
       created_at: {
         type: Sequelize.DATE,
         allowNull: false,
