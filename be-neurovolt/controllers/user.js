@@ -101,7 +101,7 @@ const Login = async (req, res) => {
 const Logout = async (req, res) => {
   try {
     const refreshToken = req.cookies.refreshToken;
-    if (!refreshToken) return res.sendStatus(204); // No content
+    if (!refreshToken) return res.sendStatus(204);
 
     const user = await User.findOne({ where: { refresh_token: refreshToken } });
     if (!user) return res.sendStatus(204);
@@ -118,13 +118,7 @@ const Logout = async (req, res) => {
 const getUser = async (req, res) => {
   try {
     const users = await User.findAll({
-      include: [
-        {
-          model: Lahan,
-          as: "lahan",
-          attributes: { exclude: ["createdAt", "updatedAt"] },
-        },
-      ],
+      attributes: ["id", "name", "email"],
     });
 
     if (!users || users.length === 0) {

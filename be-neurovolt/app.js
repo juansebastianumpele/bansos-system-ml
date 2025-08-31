@@ -5,7 +5,7 @@ const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const cors = require("cors");
 
-const indexRouter = require("./routes/index");
+// const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
 const wargaRouter = require("./routes/warga");
 const statistikRouter = require("./routes/statistik");
@@ -19,8 +19,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 app.use(cors({ credentials: true, origin: process.env.CLIENT_URL }));
 
-app.use("/", indexRouter);
-app.use("/users", usersRouter);
+// app.use("/", indexRouter);
+app.use("/user", usersRouter);
 app.use("/warga", wargaRouter);
 app.use("/statistik", statistikRouter);
 
