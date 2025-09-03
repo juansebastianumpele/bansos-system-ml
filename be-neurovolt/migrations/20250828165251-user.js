@@ -28,7 +28,7 @@ module.exports = {
         defaultValue: "user",
       },
       phone_number: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false,
       },
       refresh_token: {

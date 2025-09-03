@@ -26,7 +26,7 @@ module.exports = (sequelize, DataTypes) => {
         defaultValue: "user",
       },
       phone_number: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         allowNull: false,
       },
       refresh_token: {
